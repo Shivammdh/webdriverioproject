@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="My Login application" timestamp="2022-07-01T18:07:08" time="9.333" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="My Login application"/>
+      <property name="capabilities" value="chrome.103_0_5060_66.windows"/>
+      <property name="file" value=".\test\specs\example.e2e.js"/>
+    </properties>
+    <testcase classname="chrome.103_0_5060_66.windows.My_Login_application" name="should login with valid credentials" time="9.33">
+      <system-out><![CDATA[
+COMMAND: POST /session/48878f96d13057d73ef96a5c790b6ff1/url - {"url":"https://app.keka.com/Account/KekaLogin?returnUrl=%2F"}
+RESULT: {"url":"https://app.keka.com/Account/KekaLogin?returnUrl=%2F"}
+COMMAND: POST /session/48878f96d13057d73ef96a5c790b6ff1/element - {"using":"css selector","value":"#subdomainname"}
+RESULT: {"using":"css selector","value":"#subdomainname"}
+COMMAND: POST /session/48878f96d13057d73ef96a5c790b6ff1/execute/sync - {"script":"arguments[0].value='msys';","args":[{"element-6066-11e4-a52e-4f735466cecf":"16423dc5-5a59-4ae1-8dc0-051563e286bd","ELEMENT":"16423dc5-5a59-4ae1-8dc0-051563e286bd"}]}
+RESULT: {"script":"arguments[0].value='msys';","args":[{"element-6066-11e4-a52e-4f735466cecf":"16423dc5-5a59-4ae1-8dc0-051563e286bd","ELEMENT":"16423dc5-5a59-4ae1-8dc0-051563e286bd"}]}
+COMMAND: POST /session/48878f96d13057d73ef96a5c790b6ff1/element - {"using":"css selector","value":"#email"}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/48878f96d13057d73ef96a5c790b6ff1/element/9861b43c-1472-44ca-8c83-8698d5f9899a/clear - {}
+RESULT: {}
+COMMAND: POST /session/48878f96d13057d73ef96a5c790b6ff1/element/9861b43c-1472-44ca-8c83-8698d5f9899a/value - {"text":"ssharma@msystechnologies.com"}
+RESULT: {"text":"ssharma@msystechnologies.com"}
+COMMAND: POST /session/48878f96d13057d73ef96a5c790b6ff1/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/48878f96d13057d73ef96a5c790b6ff1/element/94b891bf-3680-42ee-9e03-f3ee63af15ba/clear - {}
+RESULT: {}
+COMMAND: POST /session/48878f96d13057d73ef96a5c790b6ff1/element/94b891bf-3680-42ee-9e03-f3ee63af15ba/value - {"text":"Shivam@0105"}
+RESULT: {"text":"Shivam@0105"}
+COMMAND: POST /session/48878f96d13057d73ef96a5c790b6ff1/element - {"using":"xpath","value":"//button[@type='submit']"}
+RESULT: {"using":"xpath","value":"//button[@type='submit']"}
+COMMAND: POST /session/48878f96d13057d73ef96a5c790b6ff1/element/71f70714-7d1b-42af-b662-df44cd47c039/click - {}
+RESULT: {}
+COMMAND: POST /session/48878f96d13057d73ef96a5c790b6ff1/element - {"using":"css selector","value":".profile-name"}
+RESULT: {"using":"css selector","value":".profile-name"}
+COMMAND: POST /session/48878f96d13057d73ef96a5c790b6ff1/elements - {"using":"css selector","value":".profile-name"}
+RESULT: {"using":"css selector","value":".profile-name"}
+COMMAND: POST /session/48878f96d13057d73ef96a5c790b6ff1/elements - {"using":"css selector","value":".profile-name"}
+RESULT: {"using":"css selector","value":".profile-name"}
+COMMAND: POST /session/48878f96d13057d73ef96a5c790b6ff1/elements - {"using":"css selector","value":".profile-name"}
+RESULT: {"using":"css selector","value":".profile-name"}
+COMMAND: POST /session/48878f96d13057d73ef96a5c790b6ff1/elements - {"using":"css selector","value":".profile-name"}
+RESULT: {"using":"css selector","value":".profile-name"}
+COMMAND: POST /session/48878f96d13057d73ef96a5c790b6ff1/elements - {"using":"css selector","value":".profile-name"}
+RESULT: {"using":"css selector","value":".profile-name"}
+COMMAND: POST /session/48878f96d13057d73ef96a5c790b6ff1/elements - {"using":"css selector","value":".profile-name"}
+RESULT: {"using":"css selector","value":".profile-name"}
+COMMAND: POST /session/48878f96d13057d73ef96a5c790b6ff1/element - {"using":"css selector","value":".profile-name"}
+RESULT: {"using":"css selector","value":".profile-name"}
+COMMAND: GET /session/48878f96d13057d73ef96a5c790b6ff1/element/8550fe88-84e7-4068-92be-b896691a809c/text - {}
+RESULT: {}
+COMMAND: DELETE /session/48878f96d13057d73ef96a5c790b6ff1 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
